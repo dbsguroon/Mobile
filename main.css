@@ -1,103 +1,32 @@
-    html {
-            font-size: 0.688rem;
-        }
+html {
+    font-size: 0.688rem;
+}
 
-        body {
-            font-family: "Helvetica Neue";
-            margin: 0;
-            background-color: #485861;
-            color: #FFE6CF;
-            line-height: 1.4;
-            font-weight: 500;
-            overflow-x: hidden;
-            -webkit-text-size-adjust: none;
-        }
+body {
+    font-family: "Helvetica Neue";
+    margin: 0;
+    background-color: #485861;
+    color: #FFE6CF;
+    line-height: 1.4;
+    font-weight: 500;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: none;
+}
 
-        h1 {
-            margin: 0;
-        }
+h1 {
+    font-size: 2.727rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+}
 
-        /* style */
-        .text-area {
-            margin-left: 2.182em;
-            margin-top: 8.182em;
-        }
+p{
+    margin:0;
+}
 
-        .text-area h1 {
-            font-size: 2.727rem;
-            font-weight: normal;
-            line-height: 1;
-            margin-bottom: 0.733em;
-        }
+ul,li{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
 
-        .text-area .volume {
-            margin-bottom: 2.833em;
-        }
-
-        .text-area .title .line {
-            display: inline-block;
-            width: 46px;
-            height: 1px;
-            background-color: #FFE6CF;
-            position: relative;
-            top: -0.233em;
-            opacity: 0.2;
-        }
-
-        /* 원 */
-        #circle-wrapper {
-            position: relative;
-            margin-left: 2.182em;
-            margin-top: 3.818em;
-        }
-
-        .circle {
-            width: 246px;
-            height: 246px;
-            border-radius: 50%;
-            position: absolute;
-        }
-
-        .circle:nth-child(1) {
-            border: 1px solid black;
-            background-color: transparent;
-            opacity: 0.2;
-            box-sizing: border-box;
-        }
-
-        .circle:nth-child(2) {
-            background-color: #ffc000;
-            left: 9.091em;
-        }
-
-        .circle:nth-child(3) {
-            background-color: #fedd15;
-            left: 18.182em;
-            transition:1s;
-            top:0;
-        }
-        
-        .circle:nth-child(3):hover{
-            background-color:crimson;
-            top:-20px;
-        }
-        
-        
-
-        /* 뱃지 */
-        #badge {
-            font-size: 0.8182rem;
-            width: 56px;
-            height: 56px;
-            background-color: #ffc000;
-            margin-left: 2.667em;
-            padding-left: 1.444em;
-            padding-top: 2.000em;
-            box-sizing: border-box;
-            position: fixed;
-            top: 0;
-            right: 2.667em;
-            line-height: 1.2;
-            color: #485861;
-            font-weight: bold;
-        }

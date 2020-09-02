@@ -1,0 +1,107 @@
+.featured{
+    height: 310px;
+    position: relative;
+    background-image: url("img/issue-1.jpg");
+    background-size:cover;
+}
+
+.featured .count{
+    position: absolute;
+    right:0.867em;
+    top:1.000em;
+}
+
+.featured .text-area{
+    position: absolute;
+    bottom:3.273em;
+    left: 2.182em;
+}
+
+.featured .text-area .title{
+    margin-bottom: 0.400em;
+}
+
+sup{
+    font-size:0.3333rem;
+}
+
+.swiper{
+    padding:2.182em;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding-bottom:0.636em;
+}
+
+.swiper li{
+    width: 136px;
+    height: 80px;
+    background-size:cover;
+    background-position: center;
+    display:inline-block;
+    border-radius: 0.455em;
+    margin-right:1.091em;
+}
+
+.swiper li:nth-child(1){
+    background-image: url("img/issue-2.jpg");
+}
+.swiper li:nth-child(2){
+    background-image: url("img/issue-3.jpg");
+}
+.swiper li:nth-child(3){
+    background-image: url("img/issue-4.jpg");
+}
+
+.list .item{
+    padding:1.545em 2.182em 1.818em 2.182em;
+    position: relative;
+    border-bottom:1px solid rgba(0,0,0,0.08);
+}
+
+.item:before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+}
+
+.item:hover:before{
+    background-color:rgba(0,0,0,0.12);
+}
+
+.item:active:before{
+    background-color:rgba(0,0,0,0.2);
+}
+
+.list .item .num{
+    width: 26px;
+    height: 26px;
+    background-color: #ffe6cf;
+    color: #485762;
+    text-align: center;
+    line-height: 2.364em;
+    border-radius: 50%;
+    display:inline-block;
+    position: absolute;
+    top:50%;
+    margin-top: -1.182em;
+    
+}
+.list .item .infos{
+    display:inline-block;
+    width: 80%;
+    padding-left: 3.273em;
+}
+
+.list .item .infos .title{
+    font-size: 1.545rem;
+}
+
+.list .item .infos .desc{
+    font-size:1.182rem;
+    opacity: 0.7;
+}
+
