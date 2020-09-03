@@ -30,3 +30,32 @@ ul,li{
     list-style: none;
 }
 
+input{
+    background-color:rgba(255,255,255,0.08);
+    border:none;
+    height:40px;
+    color:white;
+    text-align: center;
+    border-radius: 8px;
+    font-size:14px;
+    transition: 0.2s;
+}
+
+input::placeholder{
+    color:rgba(255,255,255,0.3);
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    background-color:rgba(255,255,255,0.12);
+}
+
+/* 버튼 초기화 */
+button{
+    background-color:transparent;
+    border:none;
+    color:#FFE6CF;
+    font-size:15px;
+    outline: none;
+}
