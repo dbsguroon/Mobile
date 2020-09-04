@@ -52,7 +52,6 @@
 .list .item{
     width: calc(50% - 16px);
     height: 148px;
-    background-color:red;
     display:inline-block;
     background-size:cover;
     background-position: center;
