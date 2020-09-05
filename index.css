@@ -34,6 +34,9 @@
        height: 246px;
        border-radius: 50%;
        position: absolute;
+       animation:circleShow 1s;
+       animation-fill-mode: both;
+       animation-timing-function: ease-out;
    }
 
    .circle:nth-child(1) {
@@ -41,11 +44,13 @@
        background-color: transparent;
        opacity: 0.2;
        box-sizing: border-box;
+       animation-delay: 0.1s;
    }
 
    .circle:nth-child(2) {
        background-color: #ffc000;
        left: 9.091em;
+       animation-delay: 0.2s;
    }
 
    .circle:nth-child(3) {
@@ -53,6 +58,7 @@
        left: 18.182em;
        transition: 1s;
        top: 0;
+       animation-delay: 0.3s;
    }
 
    .circle:nth-child(3):hover {
@@ -78,4 +84,7 @@
        line-height: 1.2;
        color: #485861;
        font-weight: bold;
+       animation:slideDown 0.5s;
+       animation-fill-mode: both;
+       animation-delay: 0.5s;
    }

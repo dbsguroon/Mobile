@@ -9,6 +9,10 @@
     position: absolute;
     right:0.867em;
     top:1.000em;
+    animation:slideDown 0.2s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
 }
 
 .featured .text-area{
