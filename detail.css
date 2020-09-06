@@ -1,0 +1,37 @@
+body{
+    padding:2.182em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    padding:2.182em;
+    box-sizing: border-box;
+    background-color:#485861;
+}
+.text-area{
+    margin-top:17.455em;
+}
+.text-area .title{
+    margin-bottom: 0.400em;
+}
+sup{
+    font-size:0.9091rem;
+}
+
+.line{
+    width: 32px;
+    height: 1px;
+    border-bottom: 1px solid #FFE6CF;;
+    margin:2.909em 0;
+    opacity: 0.3;
+}
+
+.contents{
+    font-size:1.455rem;
+    font-weight: normal;
+}
