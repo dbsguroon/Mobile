@@ -1,0 +1,149 @@
+header {
+    text-align: center;
+    margin-top: 6.818em;
+}
+
+header .thumb-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 3.273em;
+}
+
+header .thumb {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1),
+        0 12px 24px 0 rgba(0, 0, 0, 0.24);
+}
+
+header .badge {
+    width: 28px;
+    height: 28px;
+    font-size: 1.091rem;
+    background-color: #ff5500;
+    border-radius: 50%;
+    position: absolute;
+    right: -0.667em;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .gretting {
+    margin-bottom: 0.417em;
+}
+
+header .mail {
+    padding: 0.727em 2.000em 0.909em 2.000em;
+    display: inline-block;
+    border-radius: 1.818em;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+    margin-top: 1.636em;
+}
+
+.list {
+    margin-top: 4.364em;
+}
+
+.list .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.364rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.list .item img {
+    padding: 1.333em 1.467em;
+}
+
+.list .item .left {
+    display: flex;
+    align-items: center;
+}
+
+.list .item .left .name {
+    margin-left: 0.400em;
+}
+
+.list .item .right {
+    opacity: 0.5;
+}
+
+.list .item .right img {
+    padding-right: 0.933em;
+}
+
+/* modal */
+.overlay{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.7);
+    animation:fadeIn 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+}
+
+.modal-wrapper{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-inner{
+    width: calc(100% - 4.364em);
+    background-color:#485861;
+    border-radius: 1.091em;
+    overflow:hidden;
+    animation: showPopup 0.75s;
+    animation-timing-function: ease-out;
+ 
+}
+
+.thumb{
+    height: 234px;
+    background-color:aliceblue;
+    background:url(img/issue-3.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.bottom-info{
+    height:212px;
+    padding:2.182em;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bottom-info .title{
+    font-size:1.545rem;
+}
+
+.bottom-info .desc{
+    margin-top: 0.364em;
+    font-size: 1.091rem;
+    line-height:1.583;
+}
+
+.bottom-info button{
+    padding:0.667em 1.333em;
+    border:1px solid rgba(255, 230, 207, 0.28);
+    font-size: 1.364rem;
+    position:absolute;
+    right:1.600em;
+    bottom:1.600em;
+}
